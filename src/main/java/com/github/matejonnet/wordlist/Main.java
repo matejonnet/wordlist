@@ -137,6 +137,9 @@ public class Main {
 
     public static String getCharset(String key) {
         String charset = defaultCharsets.getProperty(key);
+        if (charset == null) {
+            throw new RuntimeException("Cannot find charset for given key [" + key + "]");
+        }
         return charset.substring(1, charset.length() - 1);
     }
 
