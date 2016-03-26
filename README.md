@@ -24,3 +24,8 @@ Example bellow will generate 27040 words starting with a0a and ending with Z9Z, 
 Optionally you can provide a file containing words that will be excluded from the generated list.
 
 `java -jar target/wordlist-1.0.jar mixalpha numeric mixalpha -e ./file-with-words-to-exclude.txt`
+
+
+LICENCE
+-------
+[GNU GENERAL PUBLIC LICENSE Version 3](gpl-3.0.txt)
